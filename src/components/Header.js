@@ -8,6 +8,8 @@ const Header = ({ className }) => {
 
 const StyledHeader = styled(Header)`
   width: 100%;
+  padding: 10px;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 `
 
 export default StyledHeader
