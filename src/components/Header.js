@@ -1,11 +1,12 @@
 import styled from 'styled-components'
 import Container from './Container'
+import Logo from './Logo'
 
 const Header = ({ className }) => {
   return (
     <header className={className}>
-      <Container width='30' fluid>
-        Logo
+      <Container width='10' fluid>
+        <Logo />
       </Container>
       <Container width='50' fluid>
         Links
