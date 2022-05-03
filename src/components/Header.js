@@ -1,8 +1,16 @@
 import styled from 'styled-components'
+import Container from './Container'
 
 const Header = ({ className }) => {
   return (
-    <header className={className}>Header</header>
+    <header className={className}>
+      <Container width='30' fluid>
+        Logo
+      </Container>
+      <Container width='50' fluid>
+        Links
+      </Container>
+    </header>
   )
 }
 
